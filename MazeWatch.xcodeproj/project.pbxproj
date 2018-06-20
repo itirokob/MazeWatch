@@ -12,7 +12,59 @@
 		CB29FE4020D829FF00609171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE3E20D829FF00609171 /* Main.storyboard */; };
 		CB29FE4220D82A0000609171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE4120D82A0000609171 /* Assets.xcassets */; };
 		CB29FE4520D82A0000609171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE4320D82A0000609171 /* LaunchScreen.storyboard */; };
+		CB29FE5220D82A1500609171 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE5020D82A1500609171 /* Interface.storyboard */; };
+		CB29FE5420D82A1600609171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE5320D82A1600609171 /* Assets.xcassets */; };
+		CB29FE5B20D82A1700609171 /* MazeGame Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CB29FE5A20D82A1700609171 /* MazeGame Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CB29FE6020D82A1700609171 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB29FE5F20D82A1700609171 /* InterfaceController.swift */; };
+		CB29FE6220D82A1700609171 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE6120D82A1700609171 /* GameScene.sks */; };
+		CB29FE6420D82A1700609171 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB29FE6320D82A1700609171 /* GameScene.swift */; };
+		CB29FE6620D82A1700609171 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB29FE6520D82A1700609171 /* ExtensionDelegate.swift */; };
+		CB29FE6820D82A1700609171 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB29FE6720D82A1700609171 /* NotificationController.swift */; };
+		CB29FE6A20D82A1700609171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE6920D82A1700609171 /* Assets.xcassets */; };
+		CB29FE6F20D82A1700609171 /* MazeGame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB29FE4E20D82A1500609171 /* MazeGame.app */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB29FE5C20D82A1700609171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB29FE2F20D829FF00609171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB29FE5920D82A1700609171;
+			remoteInfo = "MazeGame Extension";
+		};
+		CB29FE6D20D82A1700609171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB29FE2F20D829FF00609171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB29FE4D20D82A1500609171;
+			remoteInfo = MazeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB29FE7320D82A1700609171 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CB29FE5B20D82A1700609171 /* MazeGame Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29FE7720D82A1700609171 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CB29FE6F20D82A1700609171 /* MazeGame.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CB29FE3720D829FF00609171 /* MazeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +74,30 @@
 		CB29FE4120D82A0000609171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB29FE4420D82A0000609171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB29FE4620D82A0000609171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29FE4E20D82A1500609171 /* MazeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB29FE5120D82A1500609171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CB29FE5320D82A1600609171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB29FE5520D82A1600609171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29FE5A20D82A1700609171 /* MazeGame Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MazeGame Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB29FE5F20D82A1700609171 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CB29FE6120D82A1700609171 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CB29FE6320D82A1700609171 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CB29FE6520D82A1700609171 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CB29FE6720D82A1700609171 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		CB29FE6920D82A1700609171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB29FE6B20D82A1700609171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29FE6C20D82A1700609171 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CB29FE3420D829FF00609171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29FE5720D82A1700609171 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				CB29FE3920D829FF00609171 /* MazeWatch */,
+				CB29FE4F20D82A1500609171 /* MazeGame */,
+				CB29FE5E20D82A1700609171 /* MazeGame Extension */,
 				CB29FE3820D829FF00609171 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				CB29FE3720D829FF00609171 /* MazeWatch.app */,
+				CB29FE4E20D82A1500609171 /* MazeGame.app */,
+				CB29FE5A20D82A1700609171 /* MazeGame Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +140,31 @@
 			path = MazeWatch;
 			sourceTree = "<group>";
 		};
+		CB29FE4F20D82A1500609171 /* MazeGame */ = {
+			isa = PBXGroup;
+			children = (
+				CB29FE5020D82A1500609171 /* Interface.storyboard */,
+				CB29FE5320D82A1600609171 /* Assets.xcassets */,
+				CB29FE5520D82A1600609171 /* Info.plist */,
+			);
+			path = MazeGame;
+			sourceTree = "<group>";
+		};
+		CB29FE5E20D82A1700609171 /* MazeGame Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB29FE5F20D82A1700609171 /* InterfaceController.swift */,
+				CB29FE6120D82A1700609171 /* GameScene.sks */,
+				CB29FE6320D82A1700609171 /* GameScene.swift */,
+				CB29FE6520D82A1700609171 /* ExtensionDelegate.swift */,
+				CB29FE6720D82A1700609171 /* NotificationController.swift */,
+				CB29FE6920D82A1700609171 /* Assets.xcassets */,
+				CB29FE6B20D82A1700609171 /* Info.plist */,
+				CB29FE6C20D82A1700609171 /* PushNotificationPayload.apns */,
+			);
+			path = "MazeGame Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +175,51 @@
 				CB29FE3320D829FF00609171 /* Sources */,
 				CB29FE3420D829FF00609171 /* Frameworks */,
 				CB29FE3520D829FF00609171 /* Resources */,
+				CB29FE7720D82A1700609171 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CB29FE6E20D82A1700609171 /* PBXTargetDependency */,
 			);
 			name = MazeWatch;
 			productName = MazeWatch;
 			productReference = CB29FE3720D829FF00609171 /* MazeWatch.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CB29FE4D20D82A1500609171 /* MazeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB29FE7420D82A1700609171 /* Build configuration list for PBXNativeTarget "MazeGame" */;
+			buildPhases = (
+				CB29FE4C20D82A1500609171 /* Resources */,
+				CB29FE7320D82A1700609171 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB29FE5D20D82A1700609171 /* PBXTargetDependency */,
+			);
+			name = MazeGame;
+			productName = MazeGame;
+			productReference = CB29FE4E20D82A1500609171 /* MazeGame.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CB29FE5920D82A1700609171 /* MazeGame Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB29FE7020D82A1700609171 /* Build configuration list for PBXNativeTarget "MazeGame Extension" */;
+			buildPhases = (
+				CB29FE5620D82A1700609171 /* Sources */,
+				CB29FE5720D82A1700609171 /* Frameworks */,
+				CB29FE5820D82A1700609171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MazeGame Extension";
+			productName = "MazeGame Extension";
+			productReference = CB29FE5A20D82A1700609171 /* MazeGame Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +232,12 @@
 				ORGANIZATIONNAME = "Bianca Itiroko";
 				TargetAttributes = {
 					CB29FE3620D829FF00609171 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					CB29FE4D20D82A1500609171 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					CB29FE5920D82A1700609171 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
 				};
@@ -113,6 +256,8 @@
 			projectRoot = "";
 			targets = (
 				CB29FE3620D829FF00609171 /* MazeWatch */,
+				CB29FE4D20D82A1500609171 /* MazeGame */,
+				CB29FE5920D82A1700609171 /* MazeGame Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +273,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB29FE4C20D82A1500609171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB29FE5420D82A1600609171 /* Assets.xcassets in Resources */,
+				CB29FE5220D82A1500609171 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB29FE5820D82A1700609171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB29FE6A20D82A1700609171 /* Assets.xcassets in Resources */,
+				CB29FE6220D82A1700609171 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +303,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB29FE5620D82A1700609171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB29FE6420D82A1700609171 /* GameScene.swift in Sources */,
+				CB29FE6020D82A1700609171 /* InterfaceController.swift in Sources */,
+				CB29FE6820D82A1700609171 /* NotificationController.swift in Sources */,
+				CB29FE6620D82A1700609171 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB29FE5D20D82A1700609171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB29FE5920D82A1700609171 /* MazeGame Extension */;
+			targetProxy = CB29FE5C20D82A1700609171 /* PBXContainerItemProxy */;
+		};
+		CB29FE6E20D82A1700609171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB29FE4D20D82A1500609171 /* MazeGame */;
+			targetProxy = CB29FE6D20D82A1700609171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CB29FE3E20D829FF00609171 /* Main.storyboard */ = {
@@ -157,6 +344,14 @@
 				CB29FE4420D82A0000609171 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB29FE5020D82A1500609171 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB29FE5120D82A1500609171 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -283,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = MazeWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = MazeWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +506,88 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB29FE7120D82A1700609171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
+				INFOPLIST_FILE = "MazeGame Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		CB29FE7220D82A1700609171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
+				INFOPLIST_FILE = "MazeGame Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		CB29FE7520D82A1700609171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
+				IBSC_MODULE = MazeGame_Extension;
+				INFOPLIST_FILE = MazeGame/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		CB29FE7620D82A1700609171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
+				IBSC_MODULE = MazeGame_Extension;
+				INFOPLIST_FILE = MazeGame/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -329,6 +608,24 @@
 			buildConfigurations = (
 				CB29FE4A20D82A0000609171 /* Debug */,
 				CB29FE4B20D82A0000609171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB29FE7020D82A1700609171 /* Build configuration list for PBXNativeTarget "MazeGame Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB29FE7120D82A1700609171 /* Debug */,
+				CB29FE7220D82A1700609171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB29FE7420D82A1700609171 /* Build configuration list for PBXNativeTarget "MazeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB29FE7520D82A1700609171 /* Debug */,
+				CB29FE7620D82A1700609171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
