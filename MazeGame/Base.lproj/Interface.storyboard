@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FPo-Da-tw1">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="watchOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14031"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
     </dependencies>
     <scenes>
+        <!--Connectivity Interface Controller-->
+        <scene sceneID="WDx-e7-Q8E">
+            <objects>
+                <controller id="FPo-Da-tw1" customClass="ConnectivityInterfaceController" customModule="MazeGame_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Send hi" id="vuK-8b-Yhu">
+                            <connections>
+                                <action selector="sendHiToiOS" destination="FPo-Da-tw1" id="Ac3-cw-rgk"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="63"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>

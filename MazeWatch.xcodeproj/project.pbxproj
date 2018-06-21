@@ -22,6 +22,7 @@
 		CB29FE6820D82A1700609171 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB29FE6720D82A1700609171 /* NotificationController.swift */; };
 		CB29FE6A20D82A1700609171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB29FE6920D82A1700609171 /* Assets.xcassets */; };
 		CB29FE6F20D82A1700609171 /* MazeGame.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CB29FE4E20D82A1500609171 /* MazeGame.app */; };
+		CB91E6DF20DC22CF0005DEC5 /* ConnectivityInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91E6DE20DC22CF0005DEC5 /* ConnectivityInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		CB29FE6920D82A1700609171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB29FE6B20D82A1700609171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB29FE6C20D82A1700609171 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CB91E6DE20DC22CF0005DEC5 /* ConnectivityInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				CB29FE5F20D82A1700609171 /* InterfaceController.swift */,
+				CB91E6DE20DC22CF0005DEC5 /* ConnectivityInterfaceController.swift */,
 				CB29FE6120D82A1700609171 /* GameScene.sks */,
 				CB29FE6320D82A1700609171 /* GameScene.swift */,
 				CB29FE6520D82A1700609171 /* ExtensionDelegate.swift */,
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB91E6DF20DC22CF0005DEC5 /* ConnectivityInterfaceController.swift in Sources */,
 				CB29FE6420D82A1700609171 /* GameScene.swift in Sources */,
 				CB29FE6020D82A1700609171 /* InterfaceController.swift in Sources */,
 				CB29FE6820D82A1700609171 /* NotificationController.swift in Sources */,
@@ -476,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = MazeWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,7 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = MazeWatch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,7 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = "MazeGame Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,7 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				INFOPLIST_FILE = "MazeGame Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -559,7 +563,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				IBSC_MODULE = MazeGame_Extension;
 				INFOPLIST_FILE = MazeGame/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp;
@@ -578,7 +582,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KYTAYKS6H2;
+				DEVELOPMENT_TEAM = GJ5VL7QF9C;
 				IBSC_MODULE = MazeGame_Extension;
 				INFOPLIST_FILE = MazeGame/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.BiancaItiroko.MazeWatch.watchkitapp;
